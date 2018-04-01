@@ -1,1 +1,26 @@
-
+#a)
+x<-c(4,1,1,4)
+x
+#b)
+y<-c(1,4)
+y
+#c)
+z<-x-y
+z
+#When we are calculating the difference between two vectors with different length, the shorter one is being recycled.
+#d)
+s<-c(x,y)
+s
+#e)
+a<-rep(s,10)
+a
+length(a)
+#f)
+b<-rep(s,each=3)
+b
+#g)
+c<-seq(7,21)
+c
+7:21
+#h)
+length(c)
